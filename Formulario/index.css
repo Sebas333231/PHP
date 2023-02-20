@@ -1,0 +1,75 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 150px auto;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 17px;
+    box-shadow: 0 0 15px 0 white;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+}
+.nom{
+    margin: 20px;
+    font-size: 17px;
+}
+.can{
+    margin: 20px;
+    font-size: 17px;
+}
+.fecha{
+    width: 150px;
+    height: 80px;
+    justify-content: center;
+    margin: auto 20px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 black;
+    border-radius: 4px;
+}
+.fecha h5{
+    text-align: center;
+}
+.fecha .fe{
+    margin: 0 0 0 15px;
+}
+select {
+    margin: 20px;
+    font-size: 15px;
+}
+button{
+    margin: auto 150px;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Comic Sans MS';
+    background-color: #302b63;
+    color: white;
+}
+
+h1{
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    text-align: center;
+}
+th{
+    background : grey;
+    text-shadow: black;  
+    width: 10%;
+}
+table{
+    margin: auto;
+}
+td{
+    color: white;
+    text-align: center;
+}

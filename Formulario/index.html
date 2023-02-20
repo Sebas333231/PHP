@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <form action="comprobando.php"  method="post">
+            <div class="container">
+                <h2>Datos del producto</h2>
+                <input class="nom" type="text" name="NombreProducto" size="20" placeholder="Nombre del producto">
+                <br>
+                <input type="number" name="Cantidad" class="can" size="10" placeholder="Cantidad">
+                <br>
+                <div class="fecha">
+                    <h5>Fecha de vencimiento</h5>
+                    <input type="date" name="fechaVencimiento" class="fe" placeholder="Fecha de vencimiento">
+                </div>
+                <select name="categoria" class="cate">
+                    <option>Verduras</option>
+                    <option>Lacteos</option>
+                    <option>Frutas</option>
+                    <option>Carnicos</option>
+                    <option>Aromaticas</option>
+                    <option>Huevos</option>
+                </select>
+                <select name="ubicacion">
+                    <option>Nevera</option>
+                    <option>Canastilla</option>
+                    <option>Mostrador</option>
+                </select>
+                <br>
+                <div class="buton">
+                    <button type="submit">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>
